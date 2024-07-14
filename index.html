@@ -12,19 +12,17 @@
       <div class="card">
         <div class="img-card"></div>
         <h6>Laptop Gamer AMD</h6>
-        <p>Precio base: $<span class="precio-inicial"></span></p>
-
+        <p>Precio base: $<span id="basePriceId"></span></p>
         <p>
           Cantidad:
-          <span class="cantidad">0</span>
-          <button>+</button>
-          <button>-</button>
+          <span id="quantityId"></span>
+          <button onclick="addition()">+</button>
+          <button onclick="subtraction()">-</button>
         </p>
       </div>
     </section>
-
     <div class="total-section">
-      <p>Total a pagar: $<span class="valor-total"></span></p>
+      <p>Total a pagar: $<span id="totalPriceId"></span></p>
     </div>
     <script src="assets/js/script.js"></script>
   </body>
